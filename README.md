@@ -5,6 +5,8 @@
 Dependencies:   
 npm init -y
 npm install axios dotenv
+npm install @huggingface/inference
+
 
 
 
