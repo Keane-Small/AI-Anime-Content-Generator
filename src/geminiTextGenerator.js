@@ -12,4 +12,4 @@ async function generateTextResponse() {
   console.log(response.text);
 }
 
-const textResponse = generateTextResponse();
+module.exports = { generateTextResponse };

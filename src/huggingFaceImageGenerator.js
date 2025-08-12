@@ -19,3 +19,6 @@ async function generateAnimeImage(prompt, model = 'black-forest-labs/FLUX.1-dev'
     console.error('Error generating image:', error.message);
   }
 }
+
+module.exports = { generateAnimeImage };
+
